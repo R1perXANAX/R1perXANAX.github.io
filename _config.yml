@@ -1,12 +1,12 @@
-title: Jekyll Serial Programmer
+title: R1perXNX Blog 
 markdown: kramdown
-url: ""
-baseurl: "/jekyll-theme-serial-programmer"
+url: "https://R1perXANAX.github.io"
+baseurl: ""
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Unknown Name (aka R1perXNX)
+  email: none
 
 plugins:
   - jemoji
