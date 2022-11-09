@@ -69,7 +69,7 @@ That's not the only thread integrity check of this anticheat. At the bottom we c
 
 Those 2 checks are inside a while loop, that is the main while loop, executed after the initialization of the threads
 
-![m int init]https://cdn.discordapp.com/attachments/975802761838985276/1039951517559570492/image.png
+![m int init](https://cdn.discordapp.com/attachments/975802761838985276/1039951517559570492/image.png)
 
 If the time taken to complete a cycle is greater than 3 seconds, we will be detected. That was the last check, interesting....
 
