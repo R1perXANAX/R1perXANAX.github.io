@@ -83,14 +83,14 @@ The only thread that detects our manual map is the third one( Page Protection ).
 
 Steps of the loader:
 
--Suspend all threads
--Manually map the dll
--Resume all threads (less than 3 seconds to do that).
+- Suspend all threads
+- Manually map the dll
+- Resume all threads (less than 3 seconds to do that).
 
 Steps of the dll:
 
--Terminate Page protection thread
--Change in the array of handles the page protection thread handle that now is invaid with another valid one( basically we spoof an handle ) in order to lets  SuspendThread run correctly.
+- Terminate Page protection thread
+- Change in the array of handles the page protection thread handle that now is invaid with another valid one( basically we spoof an handle ) in order to lets  SuspendThread run correctly.
 
 With this we should be able to bypass all detection vectors. We need to find the offset of the array that contains the handles to spoof. 
 
